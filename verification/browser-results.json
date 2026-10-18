@@ -1,0 +1,12 @@
+{
+  "app": "ifood",
+  "passed": [
+    "Search, favorites, extras, quantity, notes, original coupon animation, totals and full order",
+    "Reorder, cancellation and reload persistence",
+    "Nine page/viewport combinations: no horizontal overflow or missing bundled images",
+    "Five tabs, eight services, mobile product sheet, cart and checkout at 360px",
+    "All recovered animations load, reduced motion pauses playback and Escape closes the sheet",
+    "Standalone route scope and default app"
+  ],
+  "runtime_errors": []
+}

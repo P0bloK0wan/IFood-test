@@ -1,0 +1,880 @@
+[
+  {
+    "original_apk_member": "assets/cazetv_splash.lottie",
+    "source_member_sha256": "2001e0f27aac8d0412b61c3a4e5bbb88c0174b4ed99890e84d8c4263cc4c67fa",
+    "json_file": "assets/cazetv_splash/animations/animation.json",
+    "lottie_version": "5.7.0",
+    "name": "splash - caze tv",
+    "width": 375,
+    "height": 812,
+    "fps": 30,
+    "in_frame": 0,
+    "out_frame": 90,
+    "duration_seconds": 3.0,
+    "top_level_layers": [
+      {
+        "name": "APP Oficial do Outlines",
+        "type": 4,
+        "in": 0,
+        "out": 90
+      },
+      {
+        "name": "Bol\u00e3o da",
+        "type": 4,
+        "in": 0,
+        "out": 90
+      },
+      {
+        "name": "Rectangle 1430106875 1",
+        "type": 4,
+        "in": 0,
+        "out": 90
+      },
+      {
+        "name": "logo-cazetc",
+        "type": 0,
+        "in": 7,
+        "out": 97
+      },
+      {
+        "name": "confete",
+        "type": 0,
+        "in": -9,
+        "out": 171
+      },
+      {
+        "name": "fitas",
+        "type": 0,
+        "in": 9,
+        "out": 46
+      },
+      {
+        "name": "logo-branco",
+        "type": 0,
+        "in": 15,
+        "out": 105
+      },
+      {
+        "name": "PATROCINADOR OFICIAL DA CAZ\u00c9TV NAS TRANSMISS\u00d5ES DA COPA DO MUNDO FIFA 2026 Outlines",
+        "type": 4,
+        "in": 0,
+        "out": 90
+      }
+    ],
+    "asset_count": 5,
+    "external_image_assets": [
+      {
+        "id": "2",
+        "e": 0,
+        "w": 1191,
+        "h": 625,
+        "p": "2.webp",
+        "u": "/images/"
+      }
+    ],
+    "shape_types": {
+      "gr": 124,
+      "sh": 171,
+      "fl": 118,
+      "tr": 124,
+      "st": 9,
+      "rc": 1,
+      "op": 2,
+      "tm": 6
+    },
+    "keyframe_count_unique_times": 82,
+    "effect_groups": 0,
+    "markers": []
+  },
+  {
+    "original_apk_member": "assets/favorite-empty-state.json",
+    "source_member_sha256": "385049bce5828f6a136f51645c2b169ff713b420bf3a703fbac484c070ff43b0",
+    "json_file": "assets/favorite-empty-state.json",
+    "lottie_version": "5.5.7",
+    "name": "empty-state",
+    "width": 600,
+    "height": 600,
+    "fps": 29.9700012207031,
+    "in_frame": 0,
+    "out_frame": 199.000008105436,
+    "duration_seconds": 6.639973306639973,
+    "top_level_layers": [
+      {
+        "name": "Null 3",
+        "type": 3,
+        "in": 0,
+        "out": 900.000036657751
+      },
+      {
+        "name": "frapuccino",
+        "type": 0,
+        "in": 97.000003950891,
+        "out": 997.000040608642
+      },
+      {
+        "name": "favoritar-empty",
+        "type": 0,
+        "in": 155.000006313279,
+        "out": 1055.00004297103
+      },
+      {
+        "name": "noodles",
+        "type": 0,
+        "in": 54.0000021994651,
+        "out": 954.000038857217
+      },
+      {
+        "name": "refrigerante",
+        "type": 0,
+        "in": 0,
+        "out": 900.000036657751
+      },
+      {
+        "name": "coracao",
+        "type": 4,
+        "in": 0,
+        "out": 900.000036657751
+      }
+    ],
+    "asset_count": 11,
+    "external_image_assets": [],
+    "shape_types": {
+      "gr": 42,
+      "rc": 5,
+      "fl": 31,
+      "tr": 42,
+      "sh": 38,
+      "st": 20,
+      "op": 4
+    },
+    "keyframe_count_unique_times": 91,
+    "effect_groups": 0,
+    "markers": []
+  },
+  {
+    "original_apk_member": "assets/ic_feed_anim.json",
+    "source_member_sha256": "d391f35d9436b15822bed825547f0986827feaa3c5fce48004ead14192f7b493",
+    "json_file": "assets/ic_feed_anim.json",
+    "lottie_version": "5.5.7",
+    "name": "novidades-2",
+    "width": 24,
+    "height": 24,
+    "fps": 60,
+    "in_frame": 0,
+    "out_frame": 61,
+    "duration_seconds": 1.0166666666666666,
+    "top_level_layers": [
+      {
+        "name": "Null 1",
+        "type": 3,
+        "in": 0,
+        "out": 360
+      },
+      {
+        "name": "novidade-selected",
+        "type": 4,
+        "in": 0,
+        "out": 360
+      },
+      {
+        "name": "novidade-outline",
+        "type": 4,
+        "in": 0,
+        "out": 360
+      },
+      {
+        "name": "base",
+        "type": 4,
+        "in": 0,
+        "out": 360
+      }
+    ],
+    "asset_count": 0,
+    "external_image_assets": [],
+    "shape_types": {
+      "gr": 15,
+      "sh": 13,
+      "fl": 6,
+      "tr": 15,
+      "tm": 3,
+      "st": 6
+    },
+    "keyframe_count_unique_times": 12,
+    "effect_groups": 0,
+    "markers": []
+  },
+  {
+    "original_apk_member": "assets/ifood-splash.lottie",
+    "source_member_sha256": "56ec8147c7f83f5e4c6559c0bc6ed1cbb7e0550c942557521d35ec0f74962034",
+    "json_file": "assets/ifood-splash/animations/data.json",
+    "lottie_version": "4.8.0",
+    "name": "20250423 - Splash iFood \u00e9 Tudo Pra Mim - Alternativa",
+    "width": 375,
+    "height": 624,
+    "fps": 30,
+    "in_frame": 0,
+    "out_frame": 90,
+    "duration_seconds": 3.0,
+    "top_level_layers": [
+      {
+        "name": "Logo",
+        "type": 3,
+        "in": 0,
+        "out": 92
+      },
+      {
+        "name": "Seta",
+        "type": 4,
+        "in": 60,
+        "out": 90
+      },
+      {
+        "name": "d",
+        "type": 4,
+        "in": -4,
+        "out": 90
+      },
+      {
+        "name": "Oho E",
+        "type": 4,
+        "in": -4,
+        "out": 90
+      },
+      {
+        "name": "Olho D",
+        "type": 4,
+        "in": -4,
+        "out": 90
+      },
+      {
+        "name": "F",
+        "type": 4,
+        "in": -4,
+        "out": 90
+      },
+      {
+        "name": "i",
+        "type": 4,
+        "in": -4,
+        "out": 90
+      },
+      {
+        "name": "Mercado",
+        "type": 0,
+        "in": 0,
+        "out": 90
+      },
+      {
+        "name": "Food",
+        "type": 0,
+        "in": 0,
+        "out": 90
+      },
+      {
+        "name": "Farm\u00e1cia",
+        "type": 3,
+        "in": 0,
+        "out": 90
+      },
+      {
+        "name": "Spray",
+        "type": 4,
+        "in": 0,
+        "out": 90
+      },
+      {
+        "name": "Precomp. 2",
+        "type": 0,
+        "in": 0,
+        "out": 90
+      },
+      {
+        "name": "Bebidas",
+        "type": 3,
+        "in": 0,
+        "out": 90
+      },
+      {
+        "name": "Background",
+        "type": 4,
+        "in": 0,
+        "out": 90
+      }
+    ],
+    "asset_count": 4,
+    "external_image_assets": [],
+    "shape_types": {
+      "gr": 63,
+      "sh": 54,
+      "fl": 61,
+      "tr": 63,
+      "rc": 6
+    },
+    "keyframe_count_unique_times": 57,
+    "effect_groups": 2,
+    "markers": []
+  },
+  {
+    "original_apk_member": "assets/loading.json",
+    "source_member_sha256": "9bac60aa60390a794876965bd4bcb3e112d8b51735ff6df5dadba77b8524b3df",
+    "json_file": "assets/loading.json",
+    "lottie_version": "4.10.2",
+    "name": "loading",
+    "width": 42,
+    "height": 17,
+    "fps": 29.9700012207031,
+    "in_frame": 0,
+    "out_frame": 40.0000016292334,
+    "duration_seconds": 1.3346680013346692,
+    "top_level_layers": [
+      {
+        "name": "Left",
+        "type": 4,
+        "in": 0,
+        "out": 40.0000016292334
+      },
+      {
+        "name": "Mid",
+        "type": 4,
+        "in": 0,
+        "out": 40.0000016292334
+      },
+      {
+        "name": "Right",
+        "type": 4,
+        "in": 0,
+        "out": 40.0000016292334
+      }
+    ],
+    "asset_count": 0,
+    "external_image_assets": [],
+    "shape_types": {
+      "gr": 3,
+      "el": 3,
+      "st": 3,
+      "fl": 3,
+      "tr": 3
+    },
+    "keyframe_count_unique_times": 11,
+    "effect_groups": 0,
+    "markers": []
+  },
+  {
+    "original_apk_member": "assets/outline_cupom_aplicado.json",
+    "source_member_sha256": "1814fed19f27805b081b273abf83268e1cfe3493a535ba2b4acc55e9c46127f0",
+    "json_file": "assets/outline_cupom_aplicado.json",
+    "lottie_version": "4.8.0",
+    "name": "outline-cupom_aplicado",
+    "width": 240,
+    "height": 40,
+    "fps": 30,
+    "in_frame": 0,
+    "out_frame": 106,
+    "duration_seconds": 3.533333333333333,
+    "top_level_layers": [
+      {
+        "name": "base lingueta 2",
+        "type": 4,
+        "in": 0,
+        "out": 613
+      }
+    ],
+    "asset_count": 0,
+    "external_image_assets": [],
+    "shape_types": {
+      "gr": 1,
+      "sh": 1,
+      "tm": 1,
+      "st": 1,
+      "tr": 1
+    },
+    "keyframe_count_unique_times": 2,
+    "effect_groups": 0,
+    "markers": []
+  },
+  {
+    "original_apk_member": "assets/progress_bar_small.json",
+    "source_member_sha256": "fd9cbb9c2f908ccb82b7af6a25672494bda990519cfe7a5ba60222efd3076e12",
+    "json_file": "assets/progress_bar_small.json",
+    "lottie_version": "4.8.0",
+    "name": "progress-bar_small",
+    "width": 786,
+    "height": 9,
+    "fps": 30,
+    "in_frame": 0,
+    "out_frame": 50,
+    "duration_seconds": 1.6666666666666667,
+    "top_level_layers": [
+      {
+        "name": "progress-bar_green",
+        "type": 4,
+        "in": 0,
+        "out": 150
+      },
+      {
+        "name": "progress-bar_grey",
+        "type": 4,
+        "in": 0,
+        "out": 150
+      }
+    ],
+    "asset_count": 0,
+    "external_image_assets": [],
+    "shape_types": {
+      "gr": 2,
+      "sh": 1,
+      "fl": 2,
+      "tr": 2,
+      "rc": 1
+    },
+    "keyframe_count_unique_times": 6,
+    "effect_groups": 2,
+    "markers": []
+  },
+  {
+    "original_apk_member": "assets/success_purchase_tutorial_animation.lottie",
+    "source_member_sha256": "e2083f102070bc99d83dd445d3e2b7e9a0bfac3d6e787d348a992672ca0e359e",
+    "json_file": "assets/success_purchase_tutorial_animation/animations/tmprq7r3jqt.json",
+    "lottie_version": "4.8.0",
+    "name": "onboarding-lt0",
+    "width": 750,
+    "height": 888,
+    "fps": 30,
+    "in_frame": 0,
+    "out_frame": 385,
+    "duration_seconds": 12.833333333333334,
+    "top_level_layers": [
+      {
+        "name": "curve",
+        "type": 4,
+        "in": 0,
+        "out": 450
+      },
+      {
+        "name": "Null 86",
+        "type": 3,
+        "in": 0,
+        "out": 450
+      },
+      {
+        "name": "controller",
+        "type": 3,
+        "in": 0,
+        "out": 450
+      },
+      {
+        "name": "estrelas 3",
+        "type": 0,
+        "in": 303,
+        "out": 753
+      },
+      {
+        "name": "estrelas 3",
+        "type": 0,
+        "in": 244,
+        "out": 694
+      },
+      {
+        "name": "estrelas 2",
+        "type": 0,
+        "in": 180,
+        "out": 630
+      },
+      {
+        "name": "estrelas",
+        "type": 0,
+        "in": 88,
+        "out": 538
+      },
+      {
+        "name": "click",
+        "type": 0,
+        "in": 200,
+        "out": 290
+      },
+      {
+        "name": "click",
+        "type": 0,
+        "in": 233,
+        "out": 323
+      },
+      {
+        "name": "clube aplicado",
+        "type": 0,
+        "in": 276,
+        "out": 365
+      },
+      {
+        "name": "cupom 2",
+        "type": 0,
+        "in": 230,
+        "out": 680
+      },
+      {
+        "name": "componente de cupom",
+        "type": 0,
+        "in": 184,
+        "out": 436
+      },
+      {
+        "name": "nuvens frente",
+        "type": 4,
+        "in": 97,
+        "out": 450
+      },
+      {
+        "name": "mockup-celular",
+        "type": 4,
+        "in": 97,
+        "out": 460
+      },
+      {
+        "name": "mask sacola 2",
+        "type": 4,
+        "in": 97,
+        "out": 443
+      },
+      {
+        "name": "sacola-2",
+        "type": 0,
+        "in": 0,
+        "out": 450
+      },
+      {
+        "name": "mask cupons",
+        "type": 4,
+        "in": 97,
+        "out": 443
+      },
+      {
+        "name": "cupons",
+        "type": 0,
+        "in": 0,
+        "out": 450
+      },
+      {
+        "name": "mask sacola",
+        "type": 4,
+        "in": 97,
+        "out": 443
+      },
+      {
+        "name": "sacola-1",
+        "type": 0,
+        "in": 97,
+        "out": 443
+      },
+      {
+        "name": "mask sacola 3",
+        "type": 4,
+        "in": 97,
+        "out": 443
+      },
+      {
+        "name": "nuvem 1",
+        "type": 4,
+        "in": 0,
+        "out": 450
+      },
+      {
+        "name": "nuvem 2",
+        "type": 4,
+        "in": 0,
+        "out": 450
+      },
+      {
+        "name": "nuvem 3",
+        "type": 4,
+        "in": 0,
+        "out": 450
+      },
+      {
+        "name": "nuvem 4",
+        "type": 4,
+        "in": 0,
+        "out": 450
+      },
+      {
+        "name": "tela-1",
+        "type": 0,
+        "in": 0,
+        "out": 450
+      },
+      {
+        "name": "bg",
+        "type": 4,
+        "in": 0,
+        "out": 450
+      }
+    ],
+    "asset_count": 19,
+    "external_image_assets": [],
+    "shape_types": {
+      "gr": 350,
+      "sh": 1125,
+      "fl": 302,
+      "tr": 350,
+      "mm": 33,
+      "st": 41,
+      "tm": 18,
+      "rc": 5,
+      "el": 2
+    },
+    "keyframe_count_unique_times": 177,
+    "effect_groups": 0,
+    "markers": []
+  },
+  {
+    "original_apk_member": "assets/uber-consent.lottie",
+    "source_member_sha256": "2fa7dd34f3fb8d46fd3d2038a27c0026a1758c88758c2de5c7081ccc17d0e490",
+    "json_file": "assets/uber-consent/animations/eff94227-0ff0-4bf0-b1d5-4bb6aca2588f.json",
+    "lottie_version": "5.9.0",
+    "name": "uber_consentimento_anima",
+    "width": 352,
+    "height": 352,
+    "fps": 30,
+    "in_frame": 0,
+    "out_frame": 150,
+    "duration_seconds": 5.0,
+    "top_level_layers": [
+      {
+        "name": "efeito contornos 6",
+        "type": 4,
+        "in": 63,
+        "out": 138
+      },
+      {
+        "name": "efeito contornos 5",
+        "type": 4,
+        "in": 63,
+        "out": 138
+      },
+      {
+        "name": "efeito contornos 4",
+        "type": 4,
+        "in": 63,
+        "out": 138
+      },
+      {
+        "name": "efeito contornos 1",
+        "type": 4,
+        "in": 0,
+        "out": 75
+      },
+      {
+        "name": "efeito contornos 2",
+        "type": 4,
+        "in": 0,
+        "out": 75
+      },
+      {
+        "name": "efeito contornos 3",
+        "type": 4,
+        "in": 0,
+        "out": 75
+      },
+      {
+        "name": "dedo contornos",
+        "type": 4,
+        "in": 0,
+        "out": 150
+      },
+      {
+        "name": "MASK",
+        "type": 4,
+        "in": 0,
+        "out": 150
+      },
+      {
+        "name": "brilho contornos",
+        "type": 4,
+        "in": 0,
+        "out": 150
+      },
+      {
+        "name": "UBER contornos",
+        "type": 4,
+        "in": 0,
+        "out": 150
+      },
+      {
+        "name": "mao contornos",
+        "type": 4,
+        "in": 0,
+        "out": 150
+      },
+      {
+        "name": "olho 2 contornos",
+        "type": 4,
+        "in": 0,
+        "out": 150
+      },
+      {
+        "name": "olho 1 contornos",
+        "type": 4,
+        "in": 0,
+        "out": 150
+      },
+      {
+        "name": "boca contornos",
+        "type": 4,
+        "in": 0,
+        "out": 150
+      },
+      {
+        "name": "SACOLA contornos",
+        "type": 4,
+        "in": 0,
+        "out": 150
+      },
+      {
+        "name": "mao contornos",
+        "type": 4,
+        "in": 0,
+        "out": 150
+      },
+      {
+        "name": "braco contornos",
+        "type": 4,
+        "in": 0,
+        "out": 150
+      },
+      {
+        "name": "perna 2 contornos",
+        "type": 4,
+        "in": 0,
+        "out": 150
+      },
+      {
+        "name": "perna 1 contornos",
+        "type": 4,
+        "in": 0,
+        "out": 150
+      },
+      {
+        "name": "sombra contornos",
+        "type": 4,
+        "in": 0,
+        "out": 150
+      },
+      {
+        "name": "BG contornos",
+        "type": 3,
+        "in": 0,
+        "out": 150
+      }
+    ],
+    "asset_count": 0,
+    "external_image_assets": [],
+    "shape_types": {
+      "gr": 38,
+      "sh": 43,
+      "st": 7,
+      "tr": 38,
+      "tm": 6,
+      "mm": 23,
+      "fl": 31
+    },
+    "keyframe_count_unique_times": 54,
+    "effect_groups": 0,
+    "markers": []
+  },
+  {
+    "original_apk_member": "assets/uber-splash-animation.lottie",
+    "source_member_sha256": "0703335aadb6cac63896fdacbbd0d5cec9c531ec522f23fc95db23c557950f8b",
+    "json_file": "assets/uber-splash-animation/animations/9bff20dc-86a8-442d-93fe-b5400bf62e86.json",
+    "lottie_version": "5.7.0",
+    "name": "00_Rides-Splash-3P-LogoAnimation-andLoop",
+    "width": 430,
+    "height": 932,
+    "fps": 60,
+    "in_frame": 0,
+    "out_frame": 600,
+    "duration_seconds": 10.0,
+    "top_level_layers": [
+      {
+        "name": "00_Uber-Rides-Splash-AVD-FINAL",
+        "type": 0,
+        "in": 61,
+        "out": 600
+      },
+      {
+        "name": "U stem",
+        "type": 4,
+        "in": 1,
+        "out": 61
+      },
+      {
+        "name": "U bowl AVD",
+        "type": 4,
+        "in": 16,
+        "out": 61
+      },
+      {
+        "name": "b bowl shape",
+        "type": 4,
+        "in": 12,
+        "out": 61
+      },
+      {
+        "name": "b stem",
+        "type": 4,
+        "in": 1,
+        "out": 61
+      },
+      {
+        "name": "e AVD",
+        "type": 4,
+        "in": 28,
+        "out": 61
+      },
+      {
+        "name": "e bar",
+        "type": 4,
+        "in": 45,
+        "out": 61
+      },
+      {
+        "name": "r stem",
+        "type": 4,
+        "in": 25,
+        "out": 61
+      },
+      {
+        "name": "r hanger 2",
+        "type": 4,
+        "in": 46,
+        "out": 61
+      }
+    ],
+    "asset_count": 1,
+    "external_image_assets": [],
+    "shape_types": {
+      "gr": 29,
+      "sh": 14,
+      "fl": 30,
+      "tr": 29,
+      "rc": 9,
+      "el": 9
+    },
+    "keyframe_count_unique_times": 75,
+    "effect_groups": 0,
+    "markers": [
+      {
+        "cm": "transitionStart",
+        "tm": 119.999,
+        "dr": 0
+      },
+      {
+        "cm": "loopStart",
+        "tm": 208.998,
+        "dr": 0
+      },
+      {
+        "cm": "loopEnd",
+        "tm": 304.998,
+        "dr": 0
+      }
+    ]
+  }
+]

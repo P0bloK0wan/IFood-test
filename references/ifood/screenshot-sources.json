@@ -1,0 +1,51 @@
+[
+  {
+    "file": "screenshots/play-store-1.png",
+    "url": "https://play-lh.googleusercontent.com/X0Tk4Rl8Vl895Na25SQBZCa6jEGqoecnulmShaDsSA0ScKjyPNTm2OIURScuIMQm34ivDfLGY_uvwaUNHogMcQ=w1080",
+    "parent": "https://play.google.com/store/apps/details?gl=BR&id=br.com.brainweb.ifood",
+    "sha256": "7073d2b391f9b946b00ebdb6e3c13ae8042ab9fb973fe9241fde9c7fac089fa6",
+    "content_type": "image/png"
+  },
+  {
+    "file": "screenshots/play-store-2.png",
+    "url": "https://play-lh.googleusercontent.com/v8sBtPpTmV-PHaTYM4jlQ6wRIVw5Bjro1L_g8Fqarew720J8i_g2TWh4Tv4Xl5C1WMifG70DjzYL9tc3l0QX8g=w1080",
+    "parent": "https://play.google.com/store/apps/details?gl=BR&id=br.com.brainweb.ifood",
+    "sha256": "f12b22a637560db4cded182dc72c8c551e75482de210613db76e4db752c013b2",
+    "content_type": "image/png"
+  },
+  {
+    "file": "screenshots/play-store-3.png",
+    "url": "https://play-lh.googleusercontent.com/mGMAuY_KZt4QiXN9jrUgYHf5zEF0BcRizRDFWzW5Vs9qe_iON-fVXrqgfZ4_xPq-7sZ_lUsuFewKLc9C8Meb4vM=w1080",
+    "parent": "https://play.google.com/store/apps/details?gl=BR&id=br.com.brainweb.ifood",
+    "sha256": "a0a71a5c1a1a2335a4a4de78749654bfd07f3fc9bc942e511632558a5db88d84",
+    "content_type": "image/png"
+  },
+  {
+    "file": "screenshots/play-store-4.png",
+    "url": "https://play-lh.googleusercontent.com/D1VPal_IItmOP7nj2oHlfZvIq_KZjfcECkKhiPJgnubo4WYN3o4-DwNYKTBa3ijeeKT3uIUzJ5jMyHCeClCJkaM=w1080",
+    "parent": "https://play.google.com/store/apps/details?gl=BR&id=br.com.brainweb.ifood",
+    "sha256": "d4b775004add66e977cc409b567e382a682cb9987a4ff883203931099d93ba55",
+    "content_type": "image/png"
+  },
+  {
+    "file": "screenshots/play-store-5.png",
+    "url": "https://play-lh.googleusercontent.com/Jt6rYYVzW7QgT-2dSxOGeNhsKOiue3XxhemR245hax7_r8JZ7NbAbxqrK1hiOXiPPfO2idykTyhLdJ9YTPrUNA=w1080",
+    "parent": "https://play.google.com/store/apps/details?gl=BR&id=br.com.brainweb.ifood",
+    "sha256": "7e3f489ad5db9e9253db6d1c61a3e383727735ab134f925608d2328f768ce8f1",
+    "content_type": "image/png"
+  },
+  {
+    "file": "screenshots/play-store-6.png",
+    "url": "https://play-lh.googleusercontent.com/vNlh435soagsIcYXQ8XnOOATLm-BRZzZ-S6ylL-O-3jED07Ot_TzXNvOzsFBxwHxVG6hvAHeUop7xTY78Pn3SA=w1080",
+    "parent": "https://play.google.com/store/apps/details?gl=BR&id=br.com.brainweb.ifood",
+    "sha256": "681598cc8c0453080c1fe82b107a6d7286df4fbc2bb3a774daa49287af66c32e",
+    "content_type": "image/png"
+  },
+  {
+    "file": "screenshots/play-store-7.png",
+    "url": "https://play-lh.googleusercontent.com/5yitRwX3Bt1OWoYoEGRj_Fw7IBlucr-PgivHKVkzRl88Gk6XM1BfVDPnSMHDuQMXzjDdNxIsh3Ii3oV1szU8oA=w1080",
+    "parent": "https://play.google.com/store/apps/details?gl=BR&id=br.com.brainweb.ifood",
+    "sha256": "a7716dd3a7e0a10c01aa75b0ca1b7da0802e10ba3cc2816f8f3da8486056592b",
+    "content_type": "image/png"
+  }
+]
