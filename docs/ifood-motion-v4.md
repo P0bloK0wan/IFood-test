@@ -1,6 +1,6 @@
 # iFood: pesquisa de movimento e eventos do pedido — 18/10/2026
 
-Esta revisão adiciona resposta visual a quatro ações dos fluxos locais: colocar um produto na sacola, receber a confirmação do restaurante, preparar o pedido e sair para entrega. Nenhum evento se conecta à operação real do iFood.
+Esta revisão adiciona resposta visual a cinco ações dos fluxos locais: colocar um produto na sacola, receber a confirmação do restaurante, preparar o pedido, sair para entrega e concluir a entrega. Nenhum evento se conecta à operação real do iFood.
 
 | Evento | Implementação | Origem e limite |
 | --- | --- | --- |
@@ -8,12 +8,13 @@ Esta revisão adiciona resposta visual a quatro ações dos fluxos locais: coloc
 | Restaurante aceitou | Sacola vermelha, logo branco, selo de confirmação e pequenos brilhos; entrada em aproximadamente 1,18 s | Composição e movimento criados para a versão web. Usa o wordmark já documentado. Não é apresentado como Lottie nativo recuperado. |
 | Preparando seu pedido | Panela vermelha com wordmark branco, tampa oscilando e três trilhas de vapor; entrada de 650 ms e movimento por até 4,52 s | Ilustração em CSS/SVG e movimento criados para a versão web, usando o wordmark já documentado. Não é um recurso nativo recuperado do aplicativo. |
 | Saiu para entrega | Ilustração do entregador de moto/mochila vermelha; entrada, leve movimento vertical, cenário e pista em deslocamento durante 4,8 s | PNG preservado de um espelho público de ilustrações iFood. Fonte oficial exata não estabelecida. Movimento, pista e cenário são adaptações web. |
+| Pedido entregue | Sacola chegando, selo verde com check desenhado, onda de confirmação e oito confetes locais; duração total de 1,645 s | Composição e movimento criados para a versão web. Reutiliza o wordmark documentado; esta celebração de conclusão não é uma animação nativa recuperada. |
 
 ## Comportamento
 
 - Confete ocorre depois que o item entra na sacola. Abrir produto, recusar a troca de restaurante ou atingir o limite de 20 unidades não dispara a celebração.
 - A camada de confete não captura toques/cliques, não recebe foco e se remove ao terminar, navegar, ocultar a aba ou ativar movimento reduzido.
-- Aceite, preparo e saída para entrega aparecem no acompanhamento. Cada cena toca uma vez por pedido/estado nesta sessão; recarregar ou voltar ao histórico mantém a ilustração estática. As animações param antes de 5 s.
+- Aceite, preparo, saída para entrega e pedido entregue aparecem no acompanhamento. Cada cena toca uma vez por pedido/estado nesta sessão; recarregar ou voltar ao histórico mantém a ilustração estática. As animações param antes de 5 s.
 - Com movimento reduzido, o usuário recebe a confirmação textual normal e as ilustrações estáticas. A preferência é respeitada inclusive se mudar durante o efeito.
 - Concluir/cancelar/navegar remove as animações da cena anterior. A reprodução pausa quando a aba está oculta.
 

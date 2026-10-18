@@ -6,6 +6,8 @@
     "Preparing animates its pot lid and steam once, remains responsive and does not replay after reload",
     "Preparation is static for reduced motion, including when the preference changes during playback",
     "Delivery uses the researched rider, moves, stops for reduced motion and disappears on completion",
+    "Delivered order animates bag and celebration once, stops, remains responsive and stays static after reload",
+    "Delivered scene respects reduced motion before playback and when the preference changes",
     "Reduced motion retains cart confirmation without confetti"
   ],
   "runtime_errors": []

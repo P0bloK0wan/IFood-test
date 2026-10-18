@@ -12,6 +12,6 @@ Esta é uma reconstrução web independente. Uber e iFood, seus nomes, marcas, f
 - Fotos: origem e atribuição em `dist/assets/PHOTO-CREDITS.txt`.
 - Dados de mapa: © colaboradores do OpenStreetMap, ODbL; o mapa mantém a atribuição visível. Tiles são solicitados pelo navegador, sem download em massa ou armazenamento para uso offline. Trajetos estáticos de demonstração foram calculados no servidor público OSRM; fontes em `dist/assets/routes-sources.json`.
 - Capturas e gravações de referência: origens documentadas em `references/`; a disponibilidade pública não altera a titularidade desses materiais.
-- Efeitos iFood: confete derivado das camadas originais da campanha CazéTV do APK; entregador PNG obtido no espelho Imagens Free. Hashes e limites de origem em `dist/assets/effects/manifest.json`. As cenas de aceite/preparo/entrega e a colocação do confete na sacola são adaptações web, não novos originais atribuídos ao iFood.
+- Efeitos iFood: confete derivado das camadas originais da campanha CazéTV do APK; entregador PNG obtido no espelho Imagens Free. Hashes e limites de origem em `dist/assets/effects/manifest.json`. As cenas de aceite/preparo/entrega/conclusão e a colocação do confete na sacola são adaptações web, não novos originais atribuídos ao iFood.
 
 Somente os recursos incluídos no pacote se aplicam. O pacote iFood não necessita de mapa nem das fontes Uber.

@@ -1,4 +1,4 @@
-"""Event-level checks for cart celebration and each active order status scene."""
+"""Event-level checks for cart celebration and order status scenes."""
 from pathlib import Path
 from playwright.sync_api import sync_playwright, expect
 import os, json, shutil
@@ -105,9 +105,53 @@ with sync_playwright() as p:
     page.emulate_media(reduced_motion='reduce')
     expect(rider).to_have_attribute('data-playback','static')
     assert rider.evaluate('(e)=>e.getAnimations({subtree:true}).every(a=>a.playState!=="running")')
+    page.emulate_media(reduced_motion='no-preference')
     page.locator('[data-action="advance-order"]').click()
     expect(page.locator('[data-order-motion="delivery"]')).to_have_count(0)
     checks.append('Delivery uses the researched rider, moves, stops for reduced motion and disappears on completion')
+    delivered=page.locator('[data-order-motion="delivered"]')
+    expect(delivered).to_be_visible()
+    expect(delivered).to_have_attribute('data-playback','playing')
+    expect(page.get_by_role('heading',name='Pedido entregue',exact=True)).to_be_visible()
+    expect(page.locator('[data-action="advance-order"]')).to_have_count(0)
+    expect(page.locator('.order-loader')).to_have_count(0)
+    assert page.evaluate('window.scrollY')==0,'Delivered status must be visible after advancing'
+    page.wait_for_timeout(100)
+    a=delivered.locator('.delivered-bag').evaluate('(e)=>getComputedStyle(e).transform')
+    page.wait_for_timeout(220)
+    assert a!=delivered.locator('.delivered-bag').evaluate('(e)=>getComputedStyle(e).transform'),'Delivered bag did not animate'
+    page.wait_for_timeout(500)
+    assert delivered.locator('.delivered-confetti').evaluate_all('(els)=>els.some(e=>Number(getComputedStyle(e).opacity)>0)'), 'Delivery celebration did not appear'
+    page.screenshot(path=str(OUT/'order-delivered.png'))
+    expect(delivered).to_have_attribute('data-playback','complete',timeout=4000)
+    # Chromium may retain rounding residuals (e.g. 4e-16) after commitStyles.
+    assert delivered.locator('.delivered-confetti').evaluate_all('(els)=>els.every(e=>Number(getComputedStyle(e).opacity)<0.001)')
+    page.reload()
+    expect(delivered).to_have_attribute('data-playback','static')
+    assert delivered.evaluate('(e)=>e.getAnimations({subtree:true}).length')==0
+    for width in [360,390,1440]:
+        page.set_viewport_size({'width':width,'height':844})
+        assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')
+        page.screenshot(path=str(OUT/f'delivered-{width}.png'))
+    page.set_viewport_size({'width':390,'height':844})
+    checks.append('Delivered order animates bag and celebration once, stops, remains responsive and stays static after reload')
+    saved_order=page.evaluate('localStorage.getItem("rea-web-v1")')
+    for preference in ['reduce','no-preference']:
+        accessible=browser.new_page(viewport={'width':390,'height':844},reduced_motion=preference)
+        accessible.on('pageerror',lambda e:errors.append(str(e)))
+        accessible.add_init_script('localStorage.setItem("rea-web-v1",'+json.dumps(saved_order)+');sessionStorage.setItem("ifood-splash-seen","1")')
+        accessible.goto(page.url)
+        scene=accessible.locator('[data-order-motion="delivered"]')
+        expect(scene).to_be_visible()
+        if preference=='no-preference':
+            expect(scene).to_have_attribute('data-playback','playing')
+            accessible.emulate_media(reduced_motion='reduce')
+        expect(scene).to_have_attribute('data-playback','static')
+        assert scene.evaluate('(e)=>e.getAnimations({subtree:true}).length')==0
+        expect(accessible.get_by_role('heading',name='Pedido entregue',exact=True)).to_be_visible()
+        accessible.close()
+    checks.append('Delivered scene respects reduced motion before playback and when the preference changes')
+    page.emulate_media(reduced_motion='reduce')
     page.goto(BASE+'#/ifood/restaurant/burger')
     page.locator('[data-action="product"]').first.click()
     page.locator('[data-action="add-cart"]').click()

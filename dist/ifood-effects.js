@@ -54,6 +54,15 @@ export function orderScene(order) {
       <div class="courier-road" aria-hidden="true"><span></span></div>
     </div>`;
   }
+  if (order.status === "completed") {
+    return `<div class="order-scene completed-scene" data-order-motion="delivered" data-order-id="${id}" aria-hidden="true">
+      <div class="delivered-halo"></div><div class="delivered-ring"></div><div class="delivered-shadow"></div>
+      <div class="accept-bag delivered-bag"><span class="accept-handle"></span><img src="./assets/identity/ifood/logo.svg" alt=""></div>
+      <span class="accept-check delivered-check"><svg viewBox="0 0 40 40"><path d="m10 21 7 7 14-15" pathLength="1"/></svg></span>
+      <span class="delivered-spark">✦</span><span class="delivered-spark small">✦</span>
+      ${Array.from({ length: 8 }, () => '<i class="delivered-confetti"></i>').join("")}
+    </div>`;
+  }
   return "";
 }
 
@@ -222,6 +231,97 @@ export function mountOrderScenes(root = document) {
           },
         );
       }
+    } else if (el.dataset.orderMotion === "delivered") {
+      animate(
+        ".delivered-bag",
+        [
+          {
+            transform: "translate(-40px,-12px) rotate(-9deg) scale(.9)",
+            opacity: 0,
+          },
+          {
+            transform: "translate(2px,3px) rotate(2deg) scale(1.02)",
+            opacity: 1,
+            offset: 0.72,
+          },
+          { transform: "translate(0,0) rotate(0) scale(1)", opacity: 1 },
+        ],
+        { duration: 800, easing: "cubic-bezier(.22,1,.36,1)" },
+      );
+      animate(
+        ".delivered-halo",
+        [
+          { transform: "scale(.65)", opacity: 0 },
+          { transform: "scale(1)", opacity: 1 },
+        ],
+        { duration: 850, easing: "ease-out" },
+      );
+      animate(
+        ".delivered-shadow",
+        [
+          { transform: "scale(.6)", opacity: 0 },
+          { transform: "scale(1)", opacity: 0.65 },
+        ],
+        { duration: 800 },
+      );
+      animate(
+        ".delivered-check",
+        [
+          { transform: "scale(0) rotate(-15deg)", opacity: 0 },
+          { transform: "scale(1.12) rotate(3deg)", opacity: 1, offset: 0.7 },
+          { transform: "scale(1) rotate(0)", opacity: 1 },
+        ],
+        { duration: 550, delay: 400, fill: "backwards" },
+      );
+      animate(
+        ".delivered-check path",
+        [{ strokeDashoffset: 1 }, { strokeDashoffset: 0 }],
+        { duration: 380, delay: 750, fill: "backwards", easing: "ease-out" },
+      );
+      animate(
+        ".delivered-ring",
+        [
+          { transform: "scale(.55)", opacity: 0 },
+          { transform: "scale(.9)", opacity: 0.7, offset: 0.3 },
+          { transform: "scale(1.2)", opacity: 0 },
+        ],
+        { duration: 1200, delay: 350, fill: "backwards", easing: "ease-out" },
+      );
+      const bursts = [
+        [-86, -38, -70],
+        [-55, -64, 35],
+        [-13, -72, -35],
+        [45, -66, 80],
+        [84, -34, -45],
+        [91, 10, 60],
+        [-82, 19, 45],
+        [60, 35, -70],
+      ];
+      el.querySelectorAll(".delivered-confetti").forEach((target, i) => {
+        const [x, y, rotation] = bursts[i];
+        record.animations.push(
+          target.animate(
+            [
+              { transform: "translate(0,8px) rotate(0) scale(0)", opacity: 0 },
+              {
+                transform: `translate(${x * 0.8}px,${y}px) rotate(${rotation}deg) scale(1)`,
+                opacity: 1,
+                offset: 0.45,
+              },
+              {
+                transform: `translate(${x}px,${y + 24}px) rotate(${rotation * 2}deg) scale(.75)`,
+                opacity: 0,
+              },
+            ],
+            {
+              duration: 900,
+              delay: 500 + i * 35,
+              easing: "ease-out",
+              fill: "backwards",
+            },
+          ),
+        );
+      });
     } else {
       animate(
         ".courier-entry",
