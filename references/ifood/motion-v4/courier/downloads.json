@@ -1,0 +1,29 @@
+[
+  {
+    "file": "courier.png",
+    "url": "https://imagensfree.com.br/wp-content/uploads/2021/11/entregador-ifood-png.png",
+    "bytes": 5076,
+    "sha256": "8c6b272119ad7ce964d38785f128ebd68f3c0654e91eb53dae4f1fe44d2d577e",
+    "mime": "image/png"
+  },
+  {
+    "file": "courier-motorcycle.png",
+    "url": "https://imagensfree.com.br/wp-content/uploads/2021/11/entregador-ifood-png-motoqueiro.png",
+    "bytes": 16029,
+    "sha256": "f3ca5e8f88f61d0d45928353f6ab1c1296710a8a2ddad2f2c4b3964fce697e94",
+    "mime": "image/png"
+  },
+  {
+    "file": "order-tracking.html",
+    "url": "https://dribbble.com/shots/6774843-Order-tracking",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mime": "text/html; charset=UTF-8",
+    "media_urls": []
+  },
+  {
+    "file": "official-terms.pdf",
+    "url": "https://entregador.ifood.com.br/wp-content/uploads/2024/01/Termo-Aditivo-Janeiro_24.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

@@ -9,6 +9,12 @@ import {
 } from "./motion.js";
 import { mountMap, zoomMap } from "./map.js";
 import {
+  orderScene,
+  mountOrderScenes,
+  celebrateCart,
+  clearCartCelebration,
+} from "./ifood-effects.js";
+import {
   money,
   cartTotals,
   rideQuote,
@@ -471,7 +477,7 @@ function foodOrder(o) {
     n = statuses.indexOf(o.status),
     terminal = ["completed", "cancelled"].includes(o.status),
     r = restaurants.find((r) => r.id === o.restaurantId);
-  return `<div class="order-track"><div class="food-page-top"><a class="icon-btn" href="#/ifood/orders" aria-label="Meus pedidos">${icon("back")}</a><span>${esc(o.restaurant)}</span><button class="text-btn" data-action="help">Ajuda</button></div><div class="order-arrival"><small>${terminal ? "RESUMO DO PEDIDO" : "PREVISÃO DE ENTREGA"}</small>${!terminal ? `<strong>${r?.time || "25–35"} <span>min</span></strong>` : `<span class="order-terminal-icon">${icon(o.status === "completed" ? "check" : "close")}</span>`}<h1>${orderLabels[o.status]}</h1><p>${{ confirmed: "O restaurante recebeu seu pedido.", preparing: "Tudo sendo preparado com cuidado.", delivering: "Falta pouco para chegar até você.", completed: "Bom apetite! Obrigado por experimentar.", cancelled: "Nenhum valor foi cobrado." }[o.status]}</p>${!terminal ? motion("ifood", "loading", "order-loader") : ""}</div>${o.status !== "cancelled" ? `<div class="food-order-progress">${statuses.map((s, i) => `<span class="${i <= n ? "done" : ""}" aria-label="${orderLabels[s]}"></span>`).join("")}</div>` : ""}<div class="order-store-summary">${foodImg(o.img)}<span><strong>${esc(o.restaurant)}</strong><small>Pedido #${o.id.slice(-5).toUpperCase()}</small></span>${icon("arrow")}</div><div class="order-delivery-address">${icon("pin")}<span><strong>Entregar em</strong><p>${esc(o.address)}</p></span></div><details class="order-details" open><summary>Detalhes do pedido ${icon("down")}</summary>${o.items.map((i) => `<div class="order-detail-row"><span><b>${i.qty}×</b> ${esc(i.name)}</span><strong>${money((i.price + i.extras.reduce((s, e) => s + e.price, 0)) * i.qty)}</strong></div>`).join("")}<div class="spread order-paid"><span>Total da demonstração</span><strong>${money(o.total)}</strong></div><p>${icon("card")} ${esc(o.payment)}</p></details><div class="simulation-controls">${!terminal ? `${btn({ confirmed: "Simular início do preparo", preparing: "Simular saída para entrega", delivering: "Simular entrega concluída" }[o.status], "advance-order", "red full", 'data-id="' + o.id + '"')}<button class="text-btn" data-action="cancel-order" data-id="${o.id}">Cancelar pedido</button>` : btn("Pedir novamente", "reorder", "red full", 'data-id="' + o.id + '"')}</div><p class="demo-note app-footnote">Acompanhamento simulado · Sem entrega ou cobrança real</p></div>`;
+  return `<div class="order-track"><div class="food-page-top"><a class="icon-btn" href="#/ifood/orders" aria-label="Meus pedidos">${icon("back")}</a><span>${esc(o.restaurant)}</span><button class="text-btn" data-action="help">Ajuda</button></div>${orderScene(o)}<div class="order-arrival"><small>${terminal ? "RESUMO DO PEDIDO" : "PREVISÃO DE ENTREGA"}</small>${!terminal ? `<strong>${r?.time || "25–35"} <span>min</span></strong>` : `<span class="order-terminal-icon">${icon(o.status === "completed" ? "check" : "close")}</span>`}<h1>${orderLabels[o.status]}</h1><p>${{ confirmed: "O restaurante aceitou seu pedido.", preparing: "Tudo sendo preparado com cuidado.", delivering: "Falta pouco para chegar até você.", completed: "Bom apetite! Obrigado por experimentar.", cancelled: "Nenhum valor foi cobrado." }[o.status]}</p>${!terminal ? motion("ifood", "loading", "order-loader") : ""}</div>${o.status !== "cancelled" ? `<div class="food-order-progress">${statuses.map((s, i) => `<span class="${i <= n ? "done" : ""}" aria-label="${orderLabels[s]}"></span>`).join("")}</div>` : ""}<div class="order-store-summary">${foodImg(o.img)}<span><strong>${esc(o.restaurant)}</strong><small>Pedido #${o.id.slice(-5).toUpperCase()}</small></span>${icon("arrow")}</div><div class="order-delivery-address">${icon("pin")}<span><strong>Entregar em</strong><p>${esc(o.address)}</p></span></div><details class="order-details" open><summary>Detalhes do pedido ${icon("down")}</summary>${o.items.map((i) => `<div class="order-detail-row"><span><b>${i.qty}×</b> ${esc(i.name)}</span><strong>${money((i.price + i.extras.reduce((s, e) => s + e.price, 0)) * i.qty)}</strong></div>`).join("")}<div class="spread order-paid"><span>Total da demonstração</span><strong>${money(o.total)}</strong></div><p>${icon("card")} ${esc(o.payment)}</p></details><div class="simulation-controls">${!terminal ? `${btn({ confirmed: "Simular início do preparo", preparing: "Simular saída para entrega", delivering: "Simular entrega concluída" }[o.status], "advance-order", "red full", 'data-id="' + o.id + '"')}<button class="text-btn" data-action="cancel-order" data-id="${o.id}">Cancelar pedido</button>` : btn("Pedir novamente", "reorder", "red full", 'data-id="' + o.id + '"')}</div><p class="demo-note app-footnote">Acompanhamento simulado · Sem entrega ou cobrança real</p></div>`;
 }
 function renderFood(parts) {
   const page = parts[1] || "";
@@ -505,6 +511,7 @@ function renderFood(parts) {
   document.title = "iFood · Demonstração web";
 }
 function render() {
+  clearCartCelebration();
   const p = route(),
     screen = p.join("/") + (p[0] === "uber" ? "/" + ui.stage : "");
   const changed = lastScreen !== screen;
@@ -525,6 +532,7 @@ function render() {
       );
     }
     mountMotion();
+    mountOrderScenes();
     if (changed)
       enter(
         document.querySelector(".booking-screen .uber-panel") ||
@@ -566,14 +574,19 @@ function updateProductPrice() {
     );
 }
 function addCartItem(item, restaurant) {
-  state.cartRestaurant = restaurant;
   const found = state.cart.find((i) => i.key === item.key);
+  if (found?.qty >= 20) {
+    toast("Você já tem 20 unidades deste item na sacola.");
+    return;
+  }
+  state.cartRestaurant = restaurant;
   if (found) found.qty = Math.min(20, found.qty + item.qty);
   else state.cart.push(item);
   persist();
   closeModal();
   render();
   toast("Adicionado à sacola");
+  celebrateCart();
 }
 function scheduleModal() {
   const local = new Date(Date.now() + 3600000);
@@ -599,13 +612,11 @@ document.addEventListener("click", (event) => {
   const sectionLink = event.target.closest("[data-menu-scroll]");
   if (sectionLink) {
     event.preventDefault();
-    document
-      .getElementById(sectionLink.dataset.menuScroll)
-      ?.scrollIntoView({
-        behavior: matchMedia("(prefers-reduced-motion:reduce)").matches
-          ? "instant"
-          : "smooth",
-      });
+    document.getElementById(sectionLink.dataset.menuScroll)?.scrollIntoView({
+      behavior: matchMedia("(prefers-reduced-motion:reduce)").matches
+        ? "instant"
+        : "smooth",
+    });
     return;
   }
   const el = event.target.closest("[data-action]");
@@ -1120,6 +1131,7 @@ document.addEventListener("click", (event) => {
         o.status = nextOrderState(o.status);
         persist();
         render();
+        window.scrollTo({ top: 0, behavior: "instant" });
       }
       break;
     }

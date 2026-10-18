@@ -1,0 +1,92 @@
+[
+  {
+    "original_apk_member": "assets/cazetv_splash.lottie",
+    "json_file": "assets/cazetv_splash/animations/animation.json",
+    "name": "splash - caze tv",
+    "fps": 30,
+    "duration_seconds": 3.0,
+    "width": 375,
+    "height": 812
+  },
+  {
+    "original_apk_member": "assets/favorite-empty-state.json",
+    "json_file": "assets/favorite-empty-state.json",
+    "name": "empty-state",
+    "fps": 29.9700012207031,
+    "duration_seconds": 6.639973306639973,
+    "width": 600,
+    "height": 600
+  },
+  {
+    "original_apk_member": "assets/ic_feed_anim.json",
+    "json_file": "assets/ic_feed_anim.json",
+    "name": "novidades-2",
+    "fps": 60,
+    "duration_seconds": 1.0166666666666666,
+    "width": 24,
+    "height": 24
+  },
+  {
+    "original_apk_member": "assets/ifood-splash.lottie",
+    "json_file": "assets/ifood-splash/animations/data.json",
+    "name": "20250423 - Splash iFood \u00e9 Tudo Pra Mim - Alternativa",
+    "fps": 30,
+    "duration_seconds": 3.0,
+    "width": 375,
+    "height": 624
+  },
+  {
+    "original_apk_member": "assets/loading.json",
+    "json_file": "assets/loading.json",
+    "name": "loading",
+    "fps": 29.9700012207031,
+    "duration_seconds": 1.3346680013346692,
+    "width": 42,
+    "height": 17
+  },
+  {
+    "original_apk_member": "assets/outline_cupom_aplicado.json",
+    "json_file": "assets/outline_cupom_aplicado.json",
+    "name": "outline-cupom_aplicado",
+    "fps": 30,
+    "duration_seconds": 3.533333333333333,
+    "width": 240,
+    "height": 40
+  },
+  {
+    "original_apk_member": "assets/progress_bar_small.json",
+    "json_file": "assets/progress_bar_small.json",
+    "name": "progress-bar_small",
+    "fps": 30,
+    "duration_seconds": 1.6666666666666667,
+    "width": 786,
+    "height": 9
+  },
+  {
+    "original_apk_member": "assets/success_purchase_tutorial_animation.lottie",
+    "json_file": "assets/success_purchase_tutorial_animation/animations/tmprq7r3jqt.json",
+    "name": "onboarding-lt0",
+    "fps": 30,
+    "duration_seconds": 12.833333333333334,
+    "width": 750,
+    "height": 888
+  },
+  {
+    "original_apk_member": "assets/uber-consent.lottie",
+    "json_file": "assets/uber-consent/animations/eff94227-0ff0-4bf0-b1d5-4bb6aca2588f.json",
+    "name": "uber_consentimento_anima",
+    "fps": 30,
+    "duration_seconds": 5.0,
+    "width": 352,
+    "height": 352
+  },
+  {
+    "original_apk_member": "assets/uber-splash-animation.lottie",
+    "json_file": "assets/uber-splash-animation/animations/9bff20dc-86a8-442d-93fe-b5400bf62e86.json",
+    "name": "00_Rides-Splash-3P-LogoAnimation-andLoop",
+    "fps": 60,
+    "duration_seconds": 10.0,
+    "width": 430,
+    "height": 932
+  }
+]

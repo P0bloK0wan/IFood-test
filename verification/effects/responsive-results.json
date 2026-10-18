@@ -1,0 +1,12 @@
+{
+  "viewports": [
+    360,
+    1440
+  ],
+  "states": [
+    "accepted",
+    "delivery"
+  ],
+  "reduced_motion": true,
+  "runtime_errors": []
+}

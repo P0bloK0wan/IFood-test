@@ -1,0 +1,31 @@
+[
+  {
+    "app": "ifood",
+    "path": "assets/effects/ifood/cart-confetti.json",
+    "sha256": "0bc931ece2f85e5cb49d9131758b829c02ba2d7a168654015087770767b0ba6a",
+    "bytes": 55212,
+    "source_kind": "derived from recovered APK: only original confete/fitas layers and referenced assets",
+    "url": "",
+    "source_json_sha256": "a12c76c2c9fcd7b08b22b95e0bb434b255cffb4f12272ec5c91b444b4835c129",
+    "source": "references/ifood/assets/cazetv_splash/animations/animation.json",
+    "layers": [
+      "confete",
+      "fitas"
+    ],
+    "fps": 30,
+    "frames": 65,
+    "duration": 2.1666666666666665,
+    "original_context": "Caz\u00e9TV campaign splash, not cart addition",
+    "start": 9,
+    "end": 74,
+    "adaptation": "Select original confete/fitas layers; play source frames9\u201374 at30fps, omit campaign idle time; no keyframes recolored, retimed or rewritten."
+  },
+  {
+    "app": "ifood",
+    "path": "assets/effects/ifood/courier.png",
+    "sha256": "f3ca5e8f88f61d0d45928353f6ab1c1296710a8a2ddad2f2c4b3964fce697e94",
+    "bytes": 16029,
+    "source_kind": "public mirror of iFood courier illustration; official CDN origin not established",
+    "url": "https://imagensfree.com.br/wp-content/uploads/2021/11/entregador-ifood-png-motoqueiro.png"
+  }
+]

@@ -1,13 +1,14 @@
 {
   "name": "rea-ifood-web",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "private": true,
   "type": "module",
   "scripts": {
     "start": "python3 -m http.server 3000 --directory dist",
     "test": "node --test tests/*.test.mjs",
-    "check": "node --check dist/app.js && node --check dist/model.js && node --check dist/data.js && node --check dist/motion.js && node --check dist/map.js",
+    "check": "node --check dist/app.js && node --check dist/model.js && node --check dist/data.js && node --check dist/motion.js && node --check dist/map.js && node --check dist/ifood-effects.js",
     "test:browser": "python3 tests/app_browser.py",
-    "test:visual": "APP=ifood python3 tests/visual_audit.py"
+    "test:visual": "APP=ifood python3 tests/visual_audit.py",
+    "test:effects": "python3 tests/ifood_effects_browser.py"
   }
 }

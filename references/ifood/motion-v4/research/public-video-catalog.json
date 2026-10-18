@@ -1,0 +1,23 @@
+{
+  "source_page": "https://www.linkedin.com/posts/braobarbosa_motiondesign-characteranimation-lottie-activity-7488987674847076353-8Dzn",
+  "embedded_sources": [
+    {
+      "src": "https://dms.licdn.com/playlist/vid/v2/D4D05AQHuQ3O5GURrpw/mp4-640p-30fp-crf28/B4DZ.46lVxGwBs-/0/1785513795194?e=2147483647&v=beta&t=nvgEfqQ1HV_-4iO8QVmrd8X1e-7e_sF7YdDs52IiUtE",
+      "type": "video/mp4",
+      "data-bitrate": 731053
+    },
+    {
+      "src": "https://dms.licdn.com/playlist/vid/v2/D4D05AQHuQ3O5GURrpw/mp4-720p-30fp-crf28/B4DZ.46lVxGwCE-/0/1785513795194?e=2147483647&v=beta&t=1vxrHXyfuftI0Oc_Gyz7Igo2T3WZ1w95VH_h50hq6IQ",
+      "type": "video/mp4",
+      "data-bitrate": 909474
+    }
+  ],
+  "metadata_date": "2026-07-31T16:03:20.328Z",
+  "declared_duration": "PT3S",
+  "declared_display_dimensions": [
+    1280,
+    720
+  ],
+  "classification": "author case study video rendition, not Lottie source",
+  "download_status": "720p URL HTTP403; no bypass or alternate rendition retries"
+}
