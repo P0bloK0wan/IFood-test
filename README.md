@@ -7,7 +7,7 @@ Aplicação web independente, responsiva que pode ser publicada em qualquer hosp
 - Pedido, acompanhamento, cancelamento, repetição e persistência local.
 - Identidade visual em início, busca, Hits, favoritos, restaurante, produto, sacola, finalização, pedido e perfil.
 - Wordmark vetorial, fontes iFood RC Textos/Títulos e artes de categorias do CDN oficial.
-- Confete ao adicionar à sacola; confirmação animada do aceite e entregador ilustrado ao sair para entrega.
+- Confete ao adicionar à sacola; confirmação animada do aceite, panela com vapor no preparo e entregador ilustrado ao sair para entrega.
 - Cinco abas e grade de serviços; abertura original de 3 s; loader, cupom e favoritos originais.
 
 ## Executar
@@ -52,4 +52,4 @@ REA original: https://github.com/morluto/rea, commit `69324b0f86cc9a209905831b12
 
 ## Novos efeitos de pedido e sacola
 
-Veja [a pesquisa pública e a implementação](docs/ifood-motion-v4.md). Execute `npm run test:effects` com o servidor ativo para validar confete, aceite, entregador e movimento reduzido. As cenas de aceite/entrega são adaptações web; o confete reaproveita camadas originais de campanha.
+Veja [a pesquisa pública e a implementação](docs/ifood-motion-v4.md). Execute `npm run test:effects` com o servidor ativo para validar confete, aceite, preparo, entregador e movimento reduzido. As cenas de aceite/preparo/entrega são adaptações web; o confete reaproveita camadas originais de campanha.

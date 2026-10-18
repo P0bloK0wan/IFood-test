@@ -1,4 +1,4 @@
-"""Event-level checks for cart celebration and order acceptance/delivery motion."""
+"""Event-level checks for cart celebration and each active order status scene."""
 from pathlib import Path
 from playwright.sync_api import sync_playwright, expect
 import os, json, shutil
@@ -50,7 +50,47 @@ with sync_playwright() as p:
     expect(page.locator('[data-order-motion="accepted"]')).to_have_attribute('data-playback','static')
     checks.append('Accepted order has its own one-shot scene and does not replay after reload')
     page.locator('[data-action="advance-order"]').click()
+    preparing=page.locator('[data-order-motion="preparing"]')
+    expect(page.get_by_role('heading',name='Preparando seu pedido',exact=True)).to_be_visible()
+    expect(preparing).to_be_visible()
+    expect(preparing).to_have_attribute('data-playback','playing')
+    expect(accepted).to_have_count(0)
+    assert page.evaluate('window.scrollY')==0,'Preparation status must be visible after advancing'
+    page.wait_for_timeout(650)
+    a=preparing.locator('.prep-lid').evaluate('(e)=>getComputedStyle(e).transform')
+    steam=preparing.locator('.steam-two').evaluate('(e)=>getComputedStyle(e).transform')
+    page.wait_for_timeout(220)
+    assert a!=preparing.locator('.prep-lid').evaluate('(e)=>getComputedStyle(e).transform'),'Lid did not animate'
+    assert steam!=preparing.locator('.steam-two').evaluate('(e)=>getComputedStyle(e).transform'),'Steam did not animate'
+    page.screenshot(path=str(OUT/'preparing-order.png'))
+    expect(preparing).to_have_attribute('data-playback','complete',timeout=5000)
+    for width in [360,390,1440]:
+        page.set_viewport_size({'width':width,'height':844})
+        assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')
+        page.screenshot(path=str(OUT/f'preparing-{width}.png'))
+    page.set_viewport_size({'width':390,'height':844})
+    page.reload()
+    expect(preparing).to_have_attribute('data-playback','static')
+    assert preparing.evaluate('(e)=>e.getAnimations({subtree:true}).length')==0
+    checks.append('Preparing animates its pot lid and steam once, remains responsive and does not replay after reload')
+    saved_order=page.evaluate('localStorage.getItem("rea-web-v1")')
+    for preference in ['reduce','no-preference']:
+        accessible=browser.new_page(viewport={'width':390,'height':844},reduced_motion=preference)
+        accessible.on('pageerror',lambda e:errors.append(str(e)))
+        accessible.add_init_script('localStorage.setItem("rea-web-v1",'+json.dumps(saved_order)+');sessionStorage.setItem("ifood-splash-seen","1")')
+        accessible.goto(page.url)
+        scene=accessible.locator('[data-order-motion="preparing"]')
+        expect(scene).to_be_visible()
+        if preference=='no-preference':
+            expect(scene).to_have_attribute('data-playback','playing')
+            accessible.emulate_media(reduced_motion='reduce')
+        expect(scene).to_have_attribute('data-playback','static')
+        assert scene.evaluate('(e)=>e.getAnimations({subtree:true}).length')==0
+        expect(accessible.get_by_role('heading',name='Preparando seu pedido',exact=True)).to_be_visible()
+        accessible.close()
+    checks.append('Preparation is static for reduced motion, including when the preference changes during playback')
     page.locator('[data-action="advance-order"]').click()
+    expect(preparing).to_have_count(0)
     rider=page.locator('[data-order-motion="delivery"]')
     expect(rider).to_be_visible()
     expect(rider).to_have_attribute('data-playback','playing')

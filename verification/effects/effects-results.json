@@ -3,6 +3,8 @@
     "Confetti plays only after cart commit, animates, never blocks interaction and removes itself",
     "Declining restaurant replacement preserves the cart and does not celebrate",
     "Accepted order has its own one-shot scene and does not replay after reload",
+    "Preparing animates its pot lid and steam once, remains responsive and does not replay after reload",
+    "Preparation is static for reduced motion, including when the preference changes during playback",
     "Delivery uses the researched rider, moves, stops for reduced motion and disappears on completion",
     "Reduced motion retains cart confirmation without confetti"
   ],

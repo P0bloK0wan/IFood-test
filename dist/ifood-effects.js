@@ -38,6 +38,13 @@ export function orderScene(order) {
       <span class="accept-check"><svg viewBox="0 0 40 40"><path d="m10 21 7 7 14-15" pathLength="1"/></svg></span>
     </div>`;
   }
+  if (order.status === "preparing") {
+    return `<div class="order-scene preparation-scene" data-order-motion="preparing" data-order-id="${id}" aria-hidden="true">
+      <div class="prep-halo"></div><div class="prep-shadow"></div>
+      <svg class="prep-steam" viewBox="0 0 104 66"><path class="steam-one" d="M22 56c-14-12 14-16 0-30"/><path class="steam-two" d="M52 48c-17-14 17-19 0-35"/><path class="steam-three" d="M82 56c-14-12 14-16 0-30"/></svg>
+      <div class="prep-pot"><span class="prep-handle handle-left"></span><span class="prep-handle handle-right"></span><div class="prep-body"><img src="./assets/identity/ifood/logo.svg" alt=""></div><div class="prep-lid"><span></span></div></div>
+    </div>`;
+  }
   if (order.status === "delivering") {
     return `<div class="order-scene delivery-scene" data-order-motion="delivery" data-order-id="${id}">
       <div class="courier-sky" aria-hidden="true"></div>
@@ -149,6 +156,70 @@ export function mountOrderScenes(root = document) {
             { transform: "translateY(0) scale(1)", opacity: 1 },
           ],
           { delay: 300 + i * 90, duration: 700, fill: "backwards" },
+        );
+      }
+    } else if (el.dataset.orderMotion === "preparing") {
+      animate(
+        ".prep-pot",
+        [
+          { transform: "translateY(18px) scale(.9)", opacity: 0 },
+          {
+            transform: "translateY(-3px) scale(1.02)",
+            opacity: 1,
+            offset: 0.7,
+          },
+          { transform: "translateY(0) scale(1)", opacity: 1 },
+        ],
+        { duration: 650, easing: "cubic-bezier(.22,1,.36,1)" },
+      );
+      animate(
+        ".prep-halo",
+        [
+          { transform: "scale(.8)", opacity: 0 },
+          { transform: "scale(1)", opacity: 1 },
+        ],
+        { duration: 800, easing: "ease-out" },
+      );
+      animate(
+        ".prep-shadow",
+        [
+          { transform: "scale(.75)", opacity: 0 },
+          { transform: "scale(1)", opacity: 0.65 },
+        ],
+        { duration: 650, easing: "ease-out" },
+      );
+      animate(
+        ".prep-lid",
+        [
+          { transform: "translateY(0) rotate(0)" },
+          { transform: "translateY(-7px) rotate(-3deg)", offset: 0.35 },
+          { transform: "translateY(-4px) rotate(2deg)", offset: 0.65 },
+          { transform: "translateY(0) rotate(0)" },
+        ],
+        { duration: 1400, iterations: 3, delay: 250, easing: "ease-in-out" },
+      );
+      for (const [i, name] of [
+        ".steam-one",
+        ".steam-two",
+        ".steam-three",
+      ].entries()) {
+        animate(
+          name,
+          [
+            { transform: "translateY(6px) scaleX(.85)", opacity: 0.15 },
+            {
+              transform: "translateY(-3px) scaleX(1.1)",
+              opacity: 0.8,
+              offset: 0.55,
+            },
+            { transform: "translateY(0) scaleX(1)", opacity: 0.65 },
+          ],
+          {
+            duration: 1400,
+            iterations: 3,
+            delay: i * 160,
+            easing: "ease-in-out",
+          },
         );
       }
     } else {
