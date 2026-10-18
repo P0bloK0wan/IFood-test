@@ -1,0 +1,762 @@
+[
+  {
+    "file": "iFoodRCTextos-Regular.woff2",
+    "source_kind": "public GitHub mirror; not official CDN",
+    "url": "https://raw.githubusercontent.com/KalyssonRyan/Clone-Ifood/7f8c3b8781d8853f3f07f6ba52541ef95d65357b/fonts/iFoodRCTextos-Regular.woff2",
+    "status": 200,
+    "size": 27864,
+    "sha256": "edc04c83ae81372976cbf849cd9cd5dfa35b6228f2bccdc533bcd43a3d667112",
+    "flavor": "woff2",
+    "names": {
+      "0": [
+        "Copyright \u00a9 2021 by iFood.com Ag\u00eancia de Restaurantes Online S.A. All rights reserved."
+      ],
+      "1": [
+        "iFood RC Textos"
+      ],
+      "2": [
+        "Regular"
+      ],
+      "3": [
+        "0.900;FHTP;iFoodRCTextos-Regular"
+      ],
+      "4": [
+        "iFood RC Textos"
+      ],
+      "5": [
+        "Version 0.900"
+      ],
+      "6": [
+        "iFoodRCTextos-Regular"
+      ],
+      "8": [
+        "Fabio Haag Type / VLF Design Ltda"
+      ],
+      "9": [
+        "Fabio Haag Type"
+      ],
+      "16": [
+        "iFood RC Textos"
+      ],
+      "17": [
+        "Regular"
+      ]
+    },
+    "glyph_count": 355,
+    "weight_class": 400,
+    "embedding_fsType": 8,
+    "unitsPerEm": 1024,
+    "portuguese_chars": {
+      "\u00e1": true,
+      "\u00e9": true,
+      "\u00ed": true,
+      "\u00f3": true,
+      "\u00fa": true,
+      "\u00e2": true,
+      "\u00ea": true,
+      "\u00f4": true,
+      "\u00e3": true,
+      "\u00f5": true,
+      "\u00e7": true,
+      "\u00c1": true,
+      "\u00c9": true,
+      "\u00cd": true,
+      "\u00d3": true,
+      "\u00da": true,
+      "\u00c2": true,
+      "\u00ca": true,
+      "\u00d4": true,
+      "\u00c3": true,
+      "\u00d5": true,
+      "\u00c7": true
+    },
+    "tables": [
+      "GlyphOrder",
+      "head",
+      "hhea",
+      "maxp",
+      "OS/2",
+      "hmtx",
+      "cmap",
+      "fpgm",
+      "prep",
+      "cvt ",
+      "loca",
+      "glyf",
+      "name",
+      "post",
+      "gasp",
+      "GDEF",
+      "GPOS",
+      "GSUB",
+      "STAT"
+    ],
+    "license_status": "No reuse license established by this download; internal copyright retained."
+  },
+  {
+    "file": "iFoodRCTextos-Medium.woff2",
+    "source_kind": "public GitHub mirror; not official CDN",
+    "url": "https://raw.githubusercontent.com/KalyssonRyan/Clone-Ifood/7f8c3b8781d8853f3f07f6ba52541ef95d65357b/fonts/iFoodRCTextos-Medium.woff2",
+    "status": 200,
+    "size": 28824,
+    "sha256": "1b6126ecfc8ee0d45fa08c19a9728a274125bd376469cd7a32f54a228c241719",
+    "flavor": "woff2",
+    "names": {
+      "0": [
+        "Copyright \u00a9 2021 by iFood.com Ag\u00eancia de Restaurantes Online S.A. All rights reserved."
+      ],
+      "1": [
+        "iFood RC Textos",
+        "iFood RC Textos Medium"
+      ],
+      "2": [
+        "Medium",
+        "Regular"
+      ],
+      "3": [
+        "0.900;FHTP;iFoodRCTextos-Medium"
+      ],
+      "4": [
+        "iFood RC Textos Medium"
+      ],
+      "5": [
+        "Version 0.900"
+      ],
+      "6": [
+        "iFoodRCTextos-Medium"
+      ],
+      "8": [
+        "Fabio Haag Type / VLF Design Ltda"
+      ],
+      "9": [
+        "Fabio Haag Type"
+      ],
+      "16": [
+        "iFood RC Textos"
+      ],
+      "17": [
+        "Medium"
+      ]
+    },
+    "glyph_count": 355,
+    "weight_class": 500,
+    "embedding_fsType": 8,
+    "unitsPerEm": 1024,
+    "portuguese_chars": {
+      "\u00e1": true,
+      "\u00e9": true,
+      "\u00ed": true,
+      "\u00f3": true,
+      "\u00fa": true,
+      "\u00e2": true,
+      "\u00ea": true,
+      "\u00f4": true,
+      "\u00e3": true,
+      "\u00f5": true,
+      "\u00e7": true,
+      "\u00c1": true,
+      "\u00c9": true,
+      "\u00cd": true,
+      "\u00d3": true,
+      "\u00da": true,
+      "\u00c2": true,
+      "\u00ca": true,
+      "\u00d4": true,
+      "\u00c3": true,
+      "\u00d5": true,
+      "\u00c7": true
+    },
+    "tables": [
+      "GlyphOrder",
+      "head",
+      "hhea",
+      "maxp",
+      "OS/2",
+      "hmtx",
+      "cmap",
+      "fpgm",
+      "prep",
+      "cvt ",
+      "loca",
+      "glyf",
+      "name",
+      "post",
+      "gasp",
+      "GDEF",
+      "GPOS",
+      "GSUB",
+      "STAT"
+    ],
+    "license_status": "No reuse license established by this download; internal copyright retained."
+  },
+  {
+    "file": "iFoodRCTextos-Bold.woff2",
+    "source_kind": "public GitHub mirror; not official CDN",
+    "url": "https://raw.githubusercontent.com/KalyssonRyan/Clone-Ifood/7f8c3b8781d8853f3f07f6ba52541ef95d65357b/fonts/iFoodRCTextos-Bold.woff2",
+    "status": 200,
+    "size": 28556,
+    "sha256": "85e181569bfb908854cdd7b60b9569e7e6c83fd70d5cb563220f578ec57455da",
+    "flavor": "woff2",
+    "names": {
+      "0": [
+        "Copyright \u00a9 2021 by iFood.com Ag\u00eancia de Restaurantes Online S.A. All rights reserved."
+      ],
+      "1": [
+        "iFood RC Textos"
+      ],
+      "2": [
+        "Bold"
+      ],
+      "3": [
+        "0.900;FHTP;iFoodRCTextos-Bold"
+      ],
+      "4": [
+        "iFood RC Textos Bold"
+      ],
+      "5": [
+        "Version 0.900"
+      ],
+      "6": [
+        "iFoodRCTextos-Bold"
+      ],
+      "8": [
+        "Fabio Haag Type / VLF Design Ltda"
+      ],
+      "9": [
+        "Fabio Haag Type"
+      ],
+      "16": [
+        "iFood RC Textos"
+      ],
+      "17": [
+        "Bold"
+      ]
+    },
+    "glyph_count": 355,
+    "weight_class": 700,
+    "embedding_fsType": 8,
+    "unitsPerEm": 1024,
+    "portuguese_chars": {
+      "\u00e1": true,
+      "\u00e9": true,
+      "\u00ed": true,
+      "\u00f3": true,
+      "\u00fa": true,
+      "\u00e2": true,
+      "\u00ea": true,
+      "\u00f4": true,
+      "\u00e3": true,
+      "\u00f5": true,
+      "\u00e7": true,
+      "\u00c1": true,
+      "\u00c9": true,
+      "\u00cd": true,
+      "\u00d3": true,
+      "\u00da": true,
+      "\u00c2": true,
+      "\u00ca": true,
+      "\u00d4": true,
+      "\u00c3": true,
+      "\u00d5": true,
+      "\u00c7": true
+    },
+    "tables": [
+      "GlyphOrder",
+      "head",
+      "hhea",
+      "maxp",
+      "OS/2",
+      "hmtx",
+      "cmap",
+      "fpgm",
+      "prep",
+      "cvt ",
+      "loca",
+      "glyf",
+      "name",
+      "post",
+      "gasp",
+      "GDEF",
+      "GPOS",
+      "GSUB",
+      "STAT"
+    ],
+    "license_status": "No reuse license established by this download; internal copyright retained."
+  },
+  {
+    "file": "iFoodRCTextos-Light.woff2",
+    "source_kind": "public GitHub mirror; not official CDN",
+    "url": "https://raw.githubusercontent.com/KalyssonRyan/Clone-Ifood/7f8c3b8781d8853f3f07f6ba52541ef95d65357b/fonts/iFoodRCTextos-Light.woff2",
+    "status": 200,
+    "size": 27856,
+    "sha256": "8bbc554dd2b92d42754a519436f6c1373d80cbc1d4a4ef1a8951c31f85d5d491",
+    "flavor": "woff2",
+    "names": {
+      "0": [
+        "Copyright \u00a9 2021 by iFood.com Ag\u00eancia de Restaurantes Online S.A. All rights reserved."
+      ],
+      "1": [
+        "iFood RC Textos",
+        "iFood RC Textos Light"
+      ],
+      "2": [
+        "Light",
+        "Regular"
+      ],
+      "3": [
+        "0.900;FHTP;iFoodRCTextos-Light"
+      ],
+      "4": [
+        "iFood RC Textos Light"
+      ],
+      "5": [
+        "Version 0.900"
+      ],
+      "6": [
+        "iFoodRCTextos-Light"
+      ],
+      "8": [
+        "Fabio Haag Type / VLF Design Ltda"
+      ],
+      "9": [
+        "Fabio Haag Type"
+      ],
+      "16": [
+        "iFood RC Textos"
+      ],
+      "17": [
+        "Light"
+      ]
+    },
+    "glyph_count": 355,
+    "weight_class": 300,
+    "embedding_fsType": 8,
+    "unitsPerEm": 1024,
+    "portuguese_chars": {
+      "\u00e1": true,
+      "\u00e9": true,
+      "\u00ed": true,
+      "\u00f3": true,
+      "\u00fa": true,
+      "\u00e2": true,
+      "\u00ea": true,
+      "\u00f4": true,
+      "\u00e3": true,
+      "\u00f5": true,
+      "\u00e7": true,
+      "\u00c1": true,
+      "\u00c9": true,
+      "\u00cd": true,
+      "\u00d3": true,
+      "\u00da": true,
+      "\u00c2": true,
+      "\u00ca": true,
+      "\u00d4": true,
+      "\u00c3": true,
+      "\u00d5": true,
+      "\u00c7": true
+    },
+    "tables": [
+      "GlyphOrder",
+      "head",
+      "hhea",
+      "maxp",
+      "OS/2",
+      "hmtx",
+      "cmap",
+      "fpgm",
+      "prep",
+      "cvt ",
+      "loca",
+      "glyf",
+      "name",
+      "post",
+      "gasp",
+      "GDEF",
+      "GPOS",
+      "GSUB",
+      "STAT"
+    ],
+    "license_status": "No reuse license established by this download; internal copyright retained."
+  },
+  {
+    "file": "iFoodRCTitulos-Regular.woff2",
+    "source_kind": "public GitHub mirror; not official CDN",
+    "url": "https://raw.githubusercontent.com/KalyssonRyan/Clone-Ifood/7f8c3b8781d8853f3f07f6ba52541ef95d65357b/fonts/iFoodRCTitulos-Regular.woff2",
+    "status": 200,
+    "size": 27972,
+    "sha256": "b2f74c4c1f7cf8e00c80c884880a3bf26475492b0d1a80dea711d28fe9482eeb",
+    "flavor": "woff2",
+    "names": {
+      "0": [
+        "Copyright \u00a9 2021 by iFood.com Ag\u00eancia de Restaurantes Online S.A. All rights reserved."
+      ],
+      "1": [
+        "iFood RC Titulos"
+      ],
+      "2": [
+        "Regular"
+      ],
+      "3": [
+        "0.900;FHTP;iFoodRCTitulos-Regular"
+      ],
+      "4": [
+        "iFood RC Titulos"
+      ],
+      "5": [
+        "Version 0.900"
+      ],
+      "6": [
+        "iFoodRCTitulos-Regular"
+      ],
+      "8": [
+        "Fabio Haag Type / VLF Design Ltda"
+      ],
+      "9": [
+        "Fabio Haag Type"
+      ],
+      "16": [
+        "iFood RC Titulos"
+      ],
+      "17": [
+        "Regular"
+      ]
+    },
+    "glyph_count": 355,
+    "weight_class": 400,
+    "embedding_fsType": 8,
+    "unitsPerEm": 1024,
+    "portuguese_chars": {
+      "\u00e1": true,
+      "\u00e9": true,
+      "\u00ed": true,
+      "\u00f3": true,
+      "\u00fa": true,
+      "\u00e2": true,
+      "\u00ea": true,
+      "\u00f4": true,
+      "\u00e3": true,
+      "\u00f5": true,
+      "\u00e7": true,
+      "\u00c1": true,
+      "\u00c9": true,
+      "\u00cd": true,
+      "\u00d3": true,
+      "\u00da": true,
+      "\u00c2": true,
+      "\u00ca": true,
+      "\u00d4": true,
+      "\u00c3": true,
+      "\u00d5": true,
+      "\u00c7": true
+    },
+    "tables": [
+      "GlyphOrder",
+      "head",
+      "hhea",
+      "maxp",
+      "OS/2",
+      "hmtx",
+      "cmap",
+      "fpgm",
+      "prep",
+      "cvt ",
+      "loca",
+      "glyf",
+      "name",
+      "post",
+      "gasp",
+      "GDEF",
+      "GPOS",
+      "GSUB",
+      "STAT"
+    ],
+    "license_status": "No reuse license established by this download; internal copyright retained."
+  },
+  {
+    "file": "iFoodRCTitulos-Medium.woff2",
+    "source_kind": "public GitHub mirror; not official CDN",
+    "url": "https://raw.githubusercontent.com/KalyssonRyan/Clone-Ifood/7f8c3b8781d8853f3f07f6ba52541ef95d65357b/fonts/iFoodRCTitulos-Medium.woff2",
+    "status": 200,
+    "size": 28884,
+    "sha256": "c2786758ca7d2fb72fb7f175b674e22b614782771129dff4246012230440b58b",
+    "flavor": "woff2",
+    "names": {
+      "0": [
+        "Copyright \u00a9 2021 by iFood.com Ag\u00eancia de Restaurantes Online S.A. All rights reserved."
+      ],
+      "1": [
+        "iFood RC Titulos",
+        "iFood RC Titulos Medium"
+      ],
+      "2": [
+        "Medium",
+        "Regular"
+      ],
+      "3": [
+        "0.900;FHTP;iFoodRCTitulos-Medium"
+      ],
+      "4": [
+        "iFood RC Titulos Medium"
+      ],
+      "5": [
+        "Version 0.900"
+      ],
+      "6": [
+        "iFoodRCTitulos-Medium"
+      ],
+      "8": [
+        "Fabio Haag Type / VLF Design Ltda"
+      ],
+      "9": [
+        "Fabio Haag Type"
+      ],
+      "16": [
+        "iFood RC Titulos"
+      ],
+      "17": [
+        "Medium"
+      ]
+    },
+    "glyph_count": 355,
+    "weight_class": 500,
+    "embedding_fsType": 8,
+    "unitsPerEm": 1024,
+    "portuguese_chars": {
+      "\u00e1": true,
+      "\u00e9": true,
+      "\u00ed": true,
+      "\u00f3": true,
+      "\u00fa": true,
+      "\u00e2": true,
+      "\u00ea": true,
+      "\u00f4": true,
+      "\u00e3": true,
+      "\u00f5": true,
+      "\u00e7": true,
+      "\u00c1": true,
+      "\u00c9": true,
+      "\u00cd": true,
+      "\u00d3": true,
+      "\u00da": true,
+      "\u00c2": true,
+      "\u00ca": true,
+      "\u00d4": true,
+      "\u00c3": true,
+      "\u00d5": true,
+      "\u00c7": true
+    },
+    "tables": [
+      "GlyphOrder",
+      "head",
+      "hhea",
+      "maxp",
+      "OS/2",
+      "hmtx",
+      "cmap",
+      "fpgm",
+      "prep",
+      "cvt ",
+      "loca",
+      "glyf",
+      "name",
+      "post",
+      "gasp",
+      "GDEF",
+      "GPOS",
+      "GSUB",
+      "STAT"
+    ],
+    "license_status": "No reuse license established by this download; internal copyright retained."
+  },
+  {
+    "file": "iFoodRCTitulos-Bold.woff2",
+    "source_kind": "public GitHub mirror; not official CDN",
+    "url": "https://raw.githubusercontent.com/KalyssonRyan/Clone-Ifood/7f8c3b8781d8853f3f07f6ba52541ef95d65357b/fonts/iFoodRCTitulos-Bold.woff2",
+    "status": 200,
+    "size": 28660,
+    "sha256": "2ece95a0bc6818c7c78594e1e2f6819d34ccc6bb03156e69ea34d6c8d88575b8",
+    "flavor": "woff2",
+    "names": {
+      "0": [
+        "Copyright \u00a9 2021 by iFood.com Ag\u00eancia de Restaurantes Online S.A. All rights reserved."
+      ],
+      "1": [
+        "iFood RC Titulos"
+      ],
+      "2": [
+        "Bold"
+      ],
+      "3": [
+        "0.900;FHTP;iFoodRCTitulos-Bold"
+      ],
+      "4": [
+        "iFood RC Titulos Bold"
+      ],
+      "5": [
+        "Version 0.900"
+      ],
+      "6": [
+        "iFoodRCTitulos-Bold"
+      ],
+      "8": [
+        "Fabio Haag Type / VLF Design Ltda"
+      ],
+      "9": [
+        "Fabio Haag Type"
+      ],
+      "16": [
+        "iFood RC Titulos"
+      ],
+      "17": [
+        "Bold"
+      ]
+    },
+    "glyph_count": 355,
+    "weight_class": 700,
+    "embedding_fsType": 8,
+    "unitsPerEm": 1024,
+    "portuguese_chars": {
+      "\u00e1": true,
+      "\u00e9": true,
+      "\u00ed": true,
+      "\u00f3": true,
+      "\u00fa": true,
+      "\u00e2": true,
+      "\u00ea": true,
+      "\u00f4": true,
+      "\u00e3": true,
+      "\u00f5": true,
+      "\u00e7": true,
+      "\u00c1": true,
+      "\u00c9": true,
+      "\u00cd": true,
+      "\u00d3": true,
+      "\u00da": true,
+      "\u00c2": true,
+      "\u00ca": true,
+      "\u00d4": true,
+      "\u00c3": true,
+      "\u00d5": true,
+      "\u00c7": true
+    },
+    "tables": [
+      "GlyphOrder",
+      "head",
+      "hhea",
+      "maxp",
+      "OS/2",
+      "hmtx",
+      "cmap",
+      "fpgm",
+      "prep",
+      "cvt ",
+      "loca",
+      "glyf",
+      "name",
+      "post",
+      "gasp",
+      "GDEF",
+      "GPOS",
+      "GSUB",
+      "STAT"
+    ],
+    "license_status": "No reuse license established by this download; internal copyright retained."
+  },
+  {
+    "file": "iFoodRCTitulos-Light.woff2",
+    "source_kind": "public GitHub mirror; not official CDN",
+    "url": "https://raw.githubusercontent.com/KalyssonRyan/Clone-Ifood/7f8c3b8781d8853f3f07f6ba52541ef95d65357b/fonts/iFoodRCTitulos-Light.woff2",
+    "status": 200,
+    "size": 28072,
+    "sha256": "aec1d0e1a0579b24b161cb750c3dc1a274ccb6afef736d461d5fd6bf68ca9fcc",
+    "flavor": "woff2",
+    "names": {
+      "0": [
+        "Copyright \u00a9 2021 by iFood.com Ag\u00eancia de Restaurantes Online S.A. All rights reserved."
+      ],
+      "1": [
+        "iFood RC Titulos",
+        "iFood RC Titulos Light"
+      ],
+      "2": [
+        "Light",
+        "Regular"
+      ],
+      "3": [
+        "0.900;FHTP;iFoodRCTitulos-Light"
+      ],
+      "4": [
+        "iFood RC Titulos Light"
+      ],
+      "5": [
+        "Version 0.900"
+      ],
+      "6": [
+        "iFoodRCTitulos-Light"
+      ],
+      "8": [
+        "Fabio Haag Type / VLF Design Ltda"
+      ],
+      "9": [
+        "Fabio Haag Type"
+      ],
+      "16": [
+        "iFood RC Titulos"
+      ],
+      "17": [
+        "Light"
+      ]
+    },
+    "glyph_count": 355,
+    "weight_class": 300,
+    "embedding_fsType": 8,
+    "unitsPerEm": 1024,
+    "portuguese_chars": {
+      "\u00e1": true,
+      "\u00e9": true,
+      "\u00ed": true,
+      "\u00f3": true,
+      "\u00fa": true,
+      "\u00e2": true,
+      "\u00ea": true,
+      "\u00f4": true,
+      "\u00e3": true,
+      "\u00f5": true,
+      "\u00e7": true,
+      "\u00c1": true,
+      "\u00c9": true,
+      "\u00cd": true,
+      "\u00d3": true,
+      "\u00da": true,
+      "\u00c2": true,
+      "\u00ca": true,
+      "\u00d4": true,
+      "\u00c3": true,
+      "\u00d5": true,
+      "\u00c7": true
+    },
+    "tables": [
+      "GlyphOrder",
+      "head",
+      "hhea",
+      "maxp",
+      "OS/2",
+      "hmtx",
+      "cmap",
+      "fpgm",
+      "prep",
+      "cvt ",
+      "loca",
+      "glyf",
+      "name",
+      "post",
+      "gasp",
+      "GDEF",
+      "GPOS",
+      "GSUB",
+      "STAT"
+    ],
+    "license_status": "No reuse license established by this download; internal copyright retained."
+  }
+]

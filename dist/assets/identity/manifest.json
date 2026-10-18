@@ -1,0 +1,82 @@
+[
+  {
+    "app": "ifood",
+    "path": "assets/identity/ifood/restaurant.png",
+    "sha256": "c7ffc0e0ed2ab9369965aa68d871f1145e0c04130b88ac02883591a6807c9dce",
+    "bytes": 58577,
+    "url": "https://static.ifood-static.com.br/image/upload/f_auto/webapp/landingV2/restaurant.png",
+    "source_kind": "official iFood CDN landing-page category art"
+  },
+  {
+    "app": "ifood",
+    "path": "assets/identity/ifood/market.png",
+    "sha256": "731d8432d57f8b9c717e50016acfb6fc7a0eab0125756a0651040266169df165",
+    "bytes": 47852,
+    "url": "https://static.ifood-static.com.br/image/upload/f_auto/webapp/landingV2/market.png",
+    "source_kind": "official iFood CDN landing-page category art"
+  },
+  {
+    "app": "ifood",
+    "path": "assets/identity/ifood/drinks.png",
+    "sha256": "f4a3d680a5420aad25d39d879b7c49ea0c1fa7d94ee976938c8ebd3f53dcb5e4",
+    "bytes": 17307,
+    "url": "https://static.ifood-static.com.br/image/upload/f_auto/webapp/landingV2/drinks.png",
+    "source_kind": "official iFood CDN landing-page category art"
+  },
+  {
+    "app": "ifood",
+    "path": "assets/identity/ifood/pharmacy.png",
+    "sha256": "d90c163faea185797beed9a47a6b33c4cc525ead749bb4680b99306718e3fc56",
+    "bytes": 9284,
+    "url": "https://static.ifood-static.com.br/image/upload/f_auto/webapp/landingV2/pharmacy.png",
+    "source_kind": "official iFood CDN landing-page category art"
+  },
+  {
+    "app": "ifood",
+    "path": "assets/identity/ifood/petshop.png",
+    "sha256": "e02ae45491d684d5665160e707b5b96fb89d7d1ce5d373ed4597e39d8e127638",
+    "bytes": 15332,
+    "url": "https://static.ifood-static.com.br/image/upload/f_auto/webapp/landingV2/petshop.png",
+    "source_kind": "official iFood CDN landing-page category art"
+  },
+  {
+    "app": "ifood",
+    "path": "assets/identity/ifood/logo.svg",
+    "sha256": "10dda188d0ef520bb8473cccd3d870619395e1037f299f302f578fbe465a765a",
+    "bytes": 1139,
+    "url": "https://raw.githubusercontent.com/istio/istio.io/a03df1cfd4fda35a88a37b7a6486141c1c153bea/archive/v1.23/logos/ifood.svg",
+    "source_kind": "public Istio case-study repository; not official iFood CDN"
+  },
+  {
+    "app": "ifood",
+    "path": "assets/identity/ifood/iFoodRCTextos-Regular.woff2",
+    "sha256": "edc04c83ae81372976cbf849cd9cd5dfa35b6228f2bccdc533bcd43a3d667112",
+    "bytes": 27864,
+    "url": "https://raw.githubusercontent.com/KalyssonRyan/Clone-Ifood/7f8c3b8781d8853f3f07f6ba52541ef95d65357b/fonts/iFoodRCTextos-Regular.woff2",
+    "source_kind": "public GitHub mirror; not official CDN"
+  },
+  {
+    "app": "ifood",
+    "path": "assets/identity/ifood/iFoodRCTextos-Medium.woff2",
+    "sha256": "1b6126ecfc8ee0d45fa08c19a9728a274125bd376469cd7a32f54a228c241719",
+    "bytes": 28824,
+    "url": "https://raw.githubusercontent.com/KalyssonRyan/Clone-Ifood/7f8c3b8781d8853f3f07f6ba52541ef95d65357b/fonts/iFoodRCTextos-Medium.woff2",
+    "source_kind": "public GitHub mirror; not official CDN"
+  },
+  {
+    "app": "ifood",
+    "path": "assets/identity/ifood/iFoodRCTitulos-Medium.woff2",
+    "sha256": "c2786758ca7d2fb72fb7f175b674e22b614782771129dff4246012230440b58b",
+    "bytes": 28884,
+    "url": "https://raw.githubusercontent.com/KalyssonRyan/Clone-Ifood/7f8c3b8781d8853f3f07f6ba52541ef95d65357b/fonts/iFoodRCTitulos-Medium.woff2",
+    "source_kind": "public GitHub mirror; not official CDN"
+  },
+  {
+    "app": "ifood",
+    "path": "assets/identity/ifood/iFoodRCTitulos-Bold.woff2",
+    "sha256": "2ece95a0bc6818c7c78594e1e2f6819d34ccc6bb03156e69ea34d6c8d88575b8",
+    "bytes": 28660,
+    "url": "https://raw.githubusercontent.com/KalyssonRyan/Clone-Ifood/7f8c3b8781d8853f3f07f6ba52541ef95d65357b/fonts/iFoodRCTitulos-Bold.woff2",
+    "source_kind": "public GitHub mirror; not official CDN"
+  }
+]

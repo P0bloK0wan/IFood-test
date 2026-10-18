@@ -1,0 +1,81 @@
+[
+  {
+    "file": "restaurant.png",
+    "url": "https://static.ifood-static.com.br/image/upload/f_auto/webapp/landingV2/restaurant.png",
+    "status": 200,
+    "size": 58577,
+    "sha256": "c7ffc0e0ed2ab9369965aa68d871f1145e0c04130b88ac02883591a6807c9dce",
+    "content_type": "image/png",
+    "dimensions": [
+      229,
+      160
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "market.png",
+    "url": "https://static.ifood-static.com.br/image/upload/f_auto/webapp/landingV2/market.png",
+    "status": 200,
+    "size": 47852,
+    "sha256": "731d8432d57f8b9c717e50016acfb6fc7a0eab0125756a0651040266169df165",
+    "content_type": "image/png",
+    "dimensions": [
+      235,
+      177
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "drinks.png",
+    "url": "https://static.ifood-static.com.br/image/upload/f_auto/webapp/landingV2/drinks.png",
+    "status": 200,
+    "size": 17307,
+    "sha256": "f4a3d680a5420aad25d39d879b7c49ea0c1fa7d94ee976938c8ebd3f53dcb5e4",
+    "content_type": "image/png",
+    "dimensions": [
+      139,
+      95
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "pharmacy.png",
+    "url": "https://static.ifood-static.com.br/image/upload/f_auto/webapp/landingV2/pharmacy.png",
+    "status": 200,
+    "size": 9284,
+    "sha256": "d90c163faea185797beed9a47a6b33c4cc525ead749bb4680b99306718e3fc56",
+    "content_type": "image/png",
+    "dimensions": [
+      100,
+      86
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "petshop.png",
+    "url": "https://static.ifood-static.com.br/image/upload/f_auto/webapp/landingV2/petshop.png",
+    "status": 200,
+    "size": 15332,
+    "sha256": "e02ae45491d684d5665160e707b5b96fb89d7d1ce5d373ed4597e39d8e127638",
+    "content_type": "image/png",
+    "dimensions": [
+      135,
+      77
+    ],
+    "format": "PNG"
+  },
+  {
+    "file": "ifood-culture-2025.pdf",
+    "url": "https://carreiras-cdn.ifood.com.br/assets/2025/12/DECK-DE-CULTURA-IFOOD_2025.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "designer-ifood-20.png",
+    "url": "https://fabiohaagtype.com/wp-content/uploads/2023/05/iFood-20.png",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://static.ifood.com.br/webapp/images/logo-smile-512x512.png",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

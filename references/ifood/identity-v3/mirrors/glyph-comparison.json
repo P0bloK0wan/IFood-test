@@ -1,0 +1,27 @@
+{
+  "a": {
+    "identical_outlines_between_textos_titulos": false,
+    "textos_commands": 29,
+    "titulos_commands": 25
+  },
+  "g": {
+    "identical_outlines_between_textos_titulos": false,
+    "textos_commands": 28,
+    "titulos_commands": 35
+  },
+  "f": {
+    "identical_outlines_between_textos_titulos": false,
+    "textos_commands": 26,
+    "titulos_commands": 26
+  },
+  "t": {
+    "identical_outlines_between_textos_titulos": false,
+    "textos_commands": 26,
+    "titulos_commands": 25
+  },
+  "r": {
+    "identical_outlines_between_textos_titulos": false,
+    "textos_commands": 18,
+    "titulos_commands": 18
+  }
+}

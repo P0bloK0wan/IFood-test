@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://www.ifood.com.br/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://institucional.ifood.com.br/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://beneficios.ifood.com.br/",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

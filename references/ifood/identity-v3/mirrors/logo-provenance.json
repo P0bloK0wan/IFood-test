@@ -1,0 +1,16 @@
+{
+  "file": "ifood-wordmark.svg",
+  "source_kind": "Public GitHub mirror from Istio case-study site, not official iFood CDN",
+  "url": "https://raw.githubusercontent.com/istio/istio.io/a03df1cfd4fda35a88a37b7a6486141c1c153bea/archive/v1.23/logos/ifood.svg",
+  "page": "https://github.com/istio/istio.io/blob/a03df1cfd4fda35a88a37b7a6486141c1c153bea/archive/v1.23/logos/ifood.svg",
+  "git_blob_sha": "19d13a477000c2c4fb3bf26e3f7260466f739e91",
+  "context": "archive/v1.23/about/case-studies/index.html links logo to https://www.ifood.com.br",
+  "status": 200,
+  "size": 1139,
+  "sha256": "10dda188d0ef520bb8473cccd3d870619395e1037f299f302f578fbe465a765a",
+  "viewBox": "0 0 1004 530.58",
+  "fill_colors": [
+    "#ea1d2c"
+  ],
+  "licensing": "No separate logo reuse license established. Trademark identity preserved. Wikimedia logo page independently corroborates wordmark identity and title ifood-43, but file was downloaded from Istio public repository."
+}
